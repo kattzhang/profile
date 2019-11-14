@@ -4,6 +4,7 @@
 set -e
 
 git checkout master
+git pull
 git merge dev
 
 read -p "Releasing - are you sure? (y/n)" -n 1 -r
