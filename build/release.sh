@@ -1,8 +1,5 @@
 #!/usr/bin/env sh
 
-# immediatelly exit if any command has a no-zero exit code
-set -e
-
 # commit
 git checkout dev
 git add -A
