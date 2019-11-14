@@ -1,15 +1,19 @@
 {
   "name": "profile",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "description": "Personal profile",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "bluebird": "^3.7.1",
     "core-js": "^3.3.2",
+    "markdown": "^0.5.0",
+    "mouse-wheel": "^1.2.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -21,6 +25,7 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "raw-loader": "^3.1.0",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
