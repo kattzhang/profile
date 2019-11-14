@@ -10,7 +10,7 @@ read -p "Releasing - are you sure? (y/n)" -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]   # =~ regular expression match
 then
-  echo "Releasing ..."
+  echo "Releasing..."
 
   # commit
   git add -A
