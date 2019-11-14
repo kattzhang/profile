@@ -1,8 +1,5 @@
 #!/usr/bin/env sh
 
-# immediately exit if any command has a non-zero exit status
-set -e
-
 git checkout master
 git merge dev
 
