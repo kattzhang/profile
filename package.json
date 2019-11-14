@@ -9,7 +9,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "pub": "yarn run build && sh build/release.sh"
+    "pub": "yarn run build && sh scripts/release.sh"
   },
   "dependencies": {
     "bluebird": "^3.7.1",
