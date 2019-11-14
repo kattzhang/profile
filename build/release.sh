@@ -16,7 +16,7 @@ then
   # commit
   git add -A
   git commit -m "[build]"
-
+  echo 123
   # push
   git push origin master
   git checkout dev
