@@ -13,7 +13,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]   # =~ regular expression match
 then
   echo "Releasing ..."
 
-  cd ..
+  echo pwd
 
   # commit
   git add -A
