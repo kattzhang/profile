@@ -18,9 +18,7 @@ then
   git commit -m "[build]"
 
   # push
-  echo "push master"
   git push origin master
-  echo "push dev"
   git checkout dev
   git rebase master
   git push origin dev
