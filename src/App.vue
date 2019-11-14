@@ -2,14 +2,12 @@
   <div id="app">
     <v-style ref="style" />
     <v-work ref="work" />
-    <v-footer ref="footer" />
   </div>
 </template>
 
 <script>
   import VStyle from '@/components/style'
   import VWork from '@/components/work'
-  import VFooter from '@/components/footer'
   import Promise from 'bluebird'
 
   export default {
@@ -17,7 +15,6 @@
     components: {
       VStyle,
       VWork,
-      VFooter,
     },
     mounted() {
       this.done = false
@@ -56,6 +53,6 @@
     top: 0;
     right: 0;
     left: 0;
-    bottom: 20px;
+    bottom: 0;
   }
 </style>
