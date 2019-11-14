@@ -13,6 +13,8 @@ if [[ $REPLY =~ ^[Yy]$ ]]   # =~ regular expression match
 then
   echo "Releasing ..."
 
+  cd ..
+
   # commit
   git add -A
   git commit -m "[build]"
