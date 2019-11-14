@@ -29,7 +29,7 @@
           this.$refs.work.showWorkBox()
           await Promise.delay(2000)
           await this.$refs.style.write(2)
-          this.$refs.footer.end()
+          // this.$refs.footer.end()
         } catch (e) {
           if (e.message === 'SKIP IT') {
             this.surprisinglyShortAttentionSpan()
@@ -41,7 +41,7 @@
       surprisinglyShortAttentionSpan() {
         this.$refs.styleText.writeToEnd()
         this.$refs.workText.showWorkBox()
-        this.$refs.footer.end()
+        // this.$refs.footer.end()
       }
     }
   }
