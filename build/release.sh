@@ -4,7 +4,6 @@
 set -e
 
 git checkout master
-git pull
 git merge dev
 
 read -p "Releasing - are you sure? (y/n)" -n 1 -r
@@ -22,6 +21,4 @@ then
   git checkout dev
   git rebase master
   git push origin dev
-
-  echo "Release is Over."
 fi
