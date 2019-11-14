@@ -13,8 +13,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]   # =~ regular expression match
 then
   echo "Releasing ..."
 
-  echo $(pwd)
-
   # commit
   git add -A
   git commit -m "[build]"
