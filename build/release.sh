@@ -13,11 +13,9 @@ then
   echo "Releasing ..."
 
   # commit
-  echo 1
   git add -A
-  echo 2
   git commit -m "[build]"
-  echo 3
+  
   # push
   git push origin master
   git checkout dev
