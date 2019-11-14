@@ -7,6 +7,7 @@ git commit -m '[build]'
 
 # merge
 git checkout master
+git pull origin master
 git merge dev
 
 # push
