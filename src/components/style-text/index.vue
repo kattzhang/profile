@@ -21,7 +21,6 @@
       },
       writeToEnd() {
         let txt = styleText.join('\n')
-
         let styleHTML = ''
         for (let i = 0; i < txt.length; i++) {
           styleHTML = handleChar(styleHTML, txt[i])

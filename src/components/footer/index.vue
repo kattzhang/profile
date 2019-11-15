@@ -1,7 +1,7 @@
 <template>
   <footer>
     <a href="#" v-show="!isEnd" @click.prevent="togglePause">{{ text }}</a>
-    <a href="#" v-show="!isEnd" @click.prevent="skip">跳过动画 --></a>
+    <a href="#" v-show="!isEnd" @click.prevent="skip">跳过动画</a>
     <span>
       <svg width="26" height="28" class="icon" viewBox="0 0 16 16" version="1.1" aria-hidden="true"><path
         fill-rule="evenodd"
@@ -14,10 +14,10 @@
 <script>
   const STATE_RUNNING = 0
   const STATE_PAUSED = 1
-  const pauseText = ['暂停 ||', '继续 >>']
+  const pauseText = ['暂停', '继续']
 
   export default {
-    name: 'v-footer',
+    name: 'page-footer',
     data() {
       return {
         state: STATE_RUNNING,
@@ -50,6 +50,15 @@
     bottom: 0;
     left: 50%;
     transform: translate3d(-50%, 50%, 0);
+    a {
+      padding: 0 3px;
+      border-right-width: 1px;
+      border-right-style: solid;
+      border-color: inherit;
+    }
+    a:last-of-type{
+      border: none;
+    }
     .icon {
       margin-left: 10px;
       vertical-align: bottom;

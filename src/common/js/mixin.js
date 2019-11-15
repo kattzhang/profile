@@ -22,7 +22,7 @@ export const writeMixin = {
       if (this.$root.animationSkipped) {
         throw new Error('SKIP IT')
       }
-      
+
       let chars = message.slice(index, index + charsPerInterval)
       index += charsPerInterval
 
@@ -49,9 +49,10 @@ export const writeMixin = {
         }
 
         do {
+          // delay infinitely when paused is true
           await Promise.delay(thisInterval)
         } while (this.$root.paused)
-
+        
         return this.writeTo(el, message, index, interval, mirrorToStyle, charsPerInterval)
       }
     },
