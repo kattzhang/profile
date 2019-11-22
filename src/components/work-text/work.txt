@@ -1,10 +1,9 @@
-
 基本资料
 =========
 
-姓名：张成欣 。
-Email：1193055507@qq.com 。
-GitHub：https://github.com/kattzhang 。
+姓名：张成欣。
+Email：1193055507@qq.com。
+GitHub：https://github.com/kattzhang。
 
 
 个人概况
