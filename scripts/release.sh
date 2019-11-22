@@ -1,14 +1,13 @@
 #!/usr/bin/env sh
 
-# commit
-git checkout dev
-git add -A
-git commit -m '[build]'
-
 # merge
 git checkout master
-git pull origin master
 git merge dev
+
+# build
+npm run build
+git add -A
+git commit -m '[build]'
 
 # push
 git push origin master
