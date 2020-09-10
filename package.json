@@ -1,7 +1,7 @@
 {
   "name": "profile",
   "version": "0.0.1",
-  "description": "Personal profile",
+  "description": "Personal Profile",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
