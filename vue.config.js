@@ -6,7 +6,7 @@ function resolve (dir) {
 
 module.exports = {
   outputDir: 'docs',
-  publicPath: '/profile/',
+  publicPath: '/',
   devServer: {
     open: true,
   },
